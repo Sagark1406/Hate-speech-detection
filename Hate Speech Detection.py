@@ -25,7 +25,7 @@ stemmer = nltk.SnowballStemmer("english")
 # In[21]:
 
 
-data=pd.read_csv("twitter_data.csv")
+data=pd.read_csv("twitter.csv")
 print(data.head())
 
 
